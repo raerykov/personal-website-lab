@@ -1,110 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Résumé • Rae</title>
-  
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-…"
-      crossorigin="anonymous"
-    />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Résumé • Rae</title>
 
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
-/>
-  
-    <!-- custom CSS  -->
-    <link rel="stylesheet" href="../resources/css/style.css" />
-  </head>
+  <!-- Favicon -->
+  <link rel="icon" href="resources/img/favicon.ico" type="image/x-icon" />
 
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-…"
+    crossorigin="anonymous"
+  />
+  <!-- Bootstrap Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+  />
+  <!-- custom CSS -->
+  <link rel="stylesheet" href="resources/css/style.css" />
+</head>
+<body>
 
-    <!-- body section -->
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="home.html">Your Name</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#mainNav"
-          aria-controls="mainNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-  
-        <div class="collapse navbar-collapse" id="mainNav">
-          <ul class="navbar-nav me-auto">
-            <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
-            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-          </ul>
-          <span class="navbar-text">
-            <!-- right-aligned icon -->
-            <img src="../resources/img/favicon.ico" alt="Icon" height="24">
-          </span>
-        </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Rae</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNav"
+        aria-controls="mainNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link active" href="resume.html">Résumé</a></li>
+        </ul>
+        <span class="navbar-text">
+          <img src="resources/img/favicon.ico" alt="Icon" height="24">
+        </span>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <main class="py-5">
-        <div class="container">
-          <h2 class="mb-4">Résumé</h2>
-      
-          <!-- (Optional) Download button -->
-          <a href="../resources/Rae-Resume.pdf" download="Rae-Resume.pdf"
-             class="btn btn-outline-secondary mb-4">
-            <i class="bi bi-download"></i> Download PDF
-          </a>
-      
-          <section class="mb-5">
-            <h3>Education</h3>
-            <ul>
-              <li><strong>University of Colorado Boulder</strong>, B.S. Computer Science — May 2026</li>
-            </ul>
-          </section>
-      
-          <section class="mb-5">
-            <h3>Experience</h3>
-            <div class="mb-3">
-              <h5>Software Engineering Intern, Acme Corp</h5>
-              <p>Summer 2024 — Built feature company web app with React and Node.js.</p>
-            </div>
-            <!-- more entries -->
-          </section>
-      
-          <section class="mb-5">
-            <h3>Skills</h3>
-            <p>Java, C++, Python, HTML/CSS, Git, …</p>
-          </section>
+  <!-- Main résumé content -->
+  <main class="py-5">
+    <div class="container">
+
+      <!-- Download button -->
+            <a
+        href="resources/Rae-Resume.pdf"
+        download="Rae-Resume.pdf"
+        target="_blank"
+        class="btn btn-outline-secondary mb-4"
+      >
+        <i class="bi bi-download"></i> Download PDF
+      </a>
+
+      <!-- Education -->
+      <section class="mb-5">
+        <h3>Education</h3>
+        <ul>
+          <li>
+            <strong>University Of Colorado Boulder</strong>,  
+            B.S. in Computer Science, Minor Mathematics — Expected May 2027
+          </li>
+        </ul>
+      </section>
+
+      <!-- Relevant Coursework -->
+      <section class="mb-5">
+        <h3>Relevant Coursework</h3>
+        <ul class="ps-3">
+          <li>Computer Systems</li>
+          <li>Data Structures</li>
+          <li>Algorithms</li>
+          <li>Operating Systems</li>
+          <li>Discrete Mathematics</li>
+        </ul>
+      </section>
+
+      <!-- Skills -->
+      <section class="mb-5">
+        <h3>Skills</h3>
+        <p>
+          <strong>Languages:</strong> C, C++, Python, Java, SQL, HTML/CSS/JavaScript<br />
+          <strong>Tools & Frameworks:</strong> Git, Docker, Linux, Bootstrap
+        </p>
+      </section>
+
+      <!-- Projects -->
+      <section class="mb-5">
+        <h3>Projects</h3>
+
+        <div class="mb-4">
+          <h5>Linux-like File System Simulator</h5>
+          <p>
+            Built a simulated Linux file system in C++ for Data Structures,
+            using hash tables to manage inodes and directory entries. Supports
+            core UNIX commands (create, read, write, delete) and metadata operations.
+          </p>
         </div>
-      </main>      
 
-      <footer class="bg-light py-3 mt-auto">
-        <div class="container text-center">
-          <a href="https://github.com/yourusername" target="_blank" class="me-3">
-            <i class="bi bi-github"></i> GitHub
-          </a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank">
-            <i class="bi bi-linkedin"></i> LinkedIn
-          </a>
+        <div class="mb-4">
+          <h5>Personal Website Lab</h5>
+          <p>
+            Developed a responsive personal portfolio site from scratch with HTML,
+            CSS, and Bootstrap—featuring a multi-page layout, carousel, and themed
+            custom styles.
+          </p>
         </div>
-      </footer>
+      </section>
 
-      <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-…"
-      crossorigin="anonymous"
-    ></script>
+      <!-- Experience -->
+      <section class="mb-5">
+        <h3>Experience</h3>
+        <div>
+          <h5>Software Engineering Intern, ArcherHub</h5>
+          <p>
+            Designed and built a Real-Time Shipment Tracking Dashboard 
+            to visualize delivery fleet locations and status updates. Collaborated with DevOps to containerize the service in Docker and automate CI/CD pipelines.
+          </p>
+        </div>
+      </section>
 
-    </body>
+    </div>
+  </main>
 
+  <!-- Footer -->
+  <footer class="bg-light py-3 mt-auto">
+    <div class="container text-center">
+      <a href="https://github.com/raerykov" target="_blank" class="me-3">
+        <i class="bi bi-github"></i> GitHub
+      </a>
+      <a href="https://linkedin.com/in/raerykov" target="_blank">
+        <i class="bi bi-linkedin"></i> LinkedIn
+      </a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS bundle -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-…"
+    crossorigin="anonymous"
+  ></script>
+</body>
 </html>
